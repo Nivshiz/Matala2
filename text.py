@@ -5,7 +5,7 @@
 
 
 def revword(word):
-    return word[::1].lower()
+    return word[::-1].lower()
 
 
 def countword():
